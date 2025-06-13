@@ -1,5 +1,9 @@
 name: Github Actions test
-on: [push]
+run-name: Log a message
+on:
+  push:
+    branches:
+      - main
 jobs:
   Test-Github-Actions:
     runs-on: ubuntu-latest
